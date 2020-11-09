@@ -67,8 +67,7 @@ app.get("/api/notes", (req, res) => {
 // --POST--
 app.post("/api/notes", (req, res) => {
     const newNote = req.body;
-    // Using a RegEx Pattern to remove spaces from newCharacter
-    newNote.title = newNote.title.replace(/\s+/g, "").toLowerCase();
+
     editDb((data) => {
         data.push(newNote);
         res.json(data);
