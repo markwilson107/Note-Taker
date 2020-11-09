@@ -15,7 +15,7 @@
 
 ## Description
 
-In order to keep organised and remember important things you need a way of taking notes and having them accessible from anywhere. This application allows you to create and save notes to a database hosted on a server, which can be accessed across all your decives. 
+In order to keep organised and remember important things you need a way of taking notes and having them accessible from anywhere. This application allows you to create and save notes to a database hosted on a server, which can be accessed across all your devices. 
 
 ## Installation
 
@@ -30,7 +30,10 @@ If you have any trouble please refer to the walk-through video.
 
 ## Usage
 
-Navigate to your project directory in your terminal application and run ``node server.js`` command.\n Once the server is running you need to open the url ``http://localhost:3000`` to view the application. In the application click Get Started, then you can enter your note title and text in the inputs on the right and save it by clicking the save icon on the top navbar. Saved notes appear on the left and can be clicked to view them or deleted by clicking the bin icon.
+1. Navigate to your project directory in your terminal application and run ``node server.js`` command.
+2. Once the server is running you need to open the url ``http://localhost:3000`` to view the application.
+3. In the application click Get Started, then you can enter your note title and text in the inputs on the right and save it by clicking the save icon on the top navbar.
+4. Saved notes appear on the left and can be clicked to view them or deleted by clicking the bin icon.
 
 ## Contributing
 
